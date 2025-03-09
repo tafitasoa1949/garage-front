@@ -1,2 +1,71 @@
 @import "primeicons/primeicons.css";
 @import "../node_modules/primeflex/primeflex.css";
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import url('typeface-ubuntu/index.css');
+
+/* @import "tailwindcss/preflight";
+@tailwind utilities; */
+
+
+
+.max-width{
+    width:100%
+}
+.max-height{
+    height: 100%;
+}
+.nav-verticale{
+    width: 16%;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.body-content{
+    width:84%;
+}
+.icone-menu-width{
+    width:20%;
+    display: flex;            /* Active Flexbox */
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center; 
+    
+}
+
+.sous-ttitle-menu{
+    font-family: 'Ubuntu', sans-serif;
+    color: #525860;
+    font-weight:lighter;
+    font-size: 20px;
+    
+}
+
+.title-menu-width{
+    width:80%;
+}
+.title-menu{
+    font-family: 'Ubuntu', sans-serif;
+    color: #918F90;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.id-garage{
+    height: 8%;
+}
+.menu-list{
+    width: 100%;
+    
+}
+.menu-child{
+    width: 95%;
+    height: 8%;
+    border-radius: 5px;
+    
+}
+.menu-child:hover{
+    width: 95%;
+    height: 8%;
+    border-radius: 5px;
+    background-color:#E5E5E5 ;
+}
