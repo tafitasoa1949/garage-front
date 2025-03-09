@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+.max-width{
+    width:100%
+}
+.max-height{
+    height: 100%;
+}
+.nav-verticale{
+    width: 20%;
+}
+.body-content{
+    width:80%;
+}

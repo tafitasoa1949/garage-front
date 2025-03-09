@@ -60,3 +60,5 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## Autor 
 Tafisao Mertina
+## generation module
+ng generate module name
